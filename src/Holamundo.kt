@@ -15,4 +15,20 @@ fun main(args: Array<String>) {
     println(a.minus(b))
     println(a.times(b))
     println(a.div(b))
+
+    /*Otros operadores*/
+    val c= -2
+    val d = c.unaryMinus()
+    println("d: $d")
+
+    val e = true
+    val f = e.not()
+    println("f: $f")
+
+    //println("+d: $d.inc()")
+
+    val g = -12
+    val h = 12
+    println("g es mayor que h. ${a>b}")
+
 }

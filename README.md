@@ -29,3 +29,10 @@ Es igual a => a==b => a?.equals(b)?:(b===null)
 No es igual a => a!=b => !(a?.equals(b)?:(b===null))   
 ```
 
+## Tipos de variables
+```
+var (changeables)   
+val (unchangeables) Se determina en tiempo de ejecución
+const (unchangeables) Se determina en tiempo de compilacion
+```
+Utilizar de preferencia variables de tipo changeables

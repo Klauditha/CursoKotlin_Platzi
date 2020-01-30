@@ -1,3 +1,12 @@
+var n = 3 //variable global, evitar usarlas
+//Inmutabilidad : no cambiar los valores de las variables
+//Funciones puras: que nada altere la funcion (principio de programación funcional)
+//Ejemplo de funcion que altera N, no es buena practica
+fun hola(){
+    n=5
+}
+
+const val N = "name"
 fun main(args: Array<String>) {
     /*Clase  de Hola Mundo*/
     println("Hola mundo")
@@ -31,4 +40,13 @@ fun main(args: Array<String>) {
     val h = 12
     println("g es mayor que h. ${a>b}")
 
+    /*ejercicios var val const*/
+    n = 4
+    println(n)
+
+    val name = args[0] //Tiempo de ejecución
+    //cons tiempo de compilacion
+    //cont no se aplica a variables locales
+    println(name)
+    println(N)
 }

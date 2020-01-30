@@ -48,3 +48,12 @@ Las funciones deben ser puras por definición.
 ### Funciones Puras
 1° Dados los mismos parámetros de entrada la función debe retornar siempre el mismo valor.   
 2° La función no debe tener efectos colaterales, es decir no debe haber nada en el entorno que la altere.   
+
+### Inmutabilidad
+Us de variables de tipo constante o inmutables.   
+Es uno de los principios de la Programación Funcional, donde se promueve la ausencia del estado mutable (Stateless).   
+
+Estado : Cualquier dato que se puede guardar y modificar posteriormente en memoria:   
+    - Una variable
+    - Un archivo   
+    - Un socket   

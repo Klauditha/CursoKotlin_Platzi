@@ -49,4 +49,25 @@ fun main(args: Array<String>) {
     //cont no se aplica a variables locales
     println(name)
     println(N)
+
+    /*String*/
+    val nombre = "Claudia" /*Infiere el tipo de dato*/
+    val apellido:String = "Villarroel" /*definiendo el tipo de dato*/
+    println("Tu nombre es" + nombre)
+    println("Tu nombre es  $nombre $apellido")
+
+    val nombreapellido="Claudia\nVillarroel"
+    println("Tu nombre es $nombreapellido")
+    //Raw String
+
+    val parrafo = """
+        ***Lorem Ipsum is simply dummy text of 
+        ***the printing and typesetting industry. Lorem Ipsum 
+        has been the industry's standard dummy text ever since 
+        the 1500s, when an unknown printer took a galley of type and 
+        scrambled it to make a type specimen book. It has survived not 
+        only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    """.trimIndent() //respeta los saltos de linea
+    println(parrafo)
+    println(parrafo.trimMargin("***")) //Recorta los ***
 }

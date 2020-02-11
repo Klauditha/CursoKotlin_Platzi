@@ -70,4 +70,15 @@ fun main(args: Array<String>) {
     """.trimIndent() //respeta los saltos de linea
     println(parrafo)
     println(parrafo.trimMargin("***")) //Recorta los ***
+
+    /*Operador Rango*/
+    val oneToHundred = 1..5
+    for (i in oneToHundred){
+        println(i)
+    }
+
+   // val aToC = 'A'..'C'
+    for (letra in 'A'..'C'){
+        println(letra)
+    }
 }

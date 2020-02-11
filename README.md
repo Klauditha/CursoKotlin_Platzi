@@ -74,4 +74,9 @@ Funciones dedicadas a las conversiones de tipos de datos
 - toFloat()   
 - toDouble()   
 - toChar()  
-Ejemplo `var a:Int = 5` `var b:Long = a.toLong() `
+Ejemplo `var a:Int = 5` `var b:Long = a.toLong() `    
+
+## Rangos
+Nos permite imprimir una secuencia de caracteres. Ejemplos: 
+`val OnToHundred = 1..100`   
+`val AtoC = 'A'..'C'`

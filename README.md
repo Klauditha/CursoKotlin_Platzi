@@ -58,9 +58,20 @@ Estado : Cualquier dato que se puede guardar y modificar posteriormente en memor
     - Un archivo   
     - Un socket   
 
-### String
+## String
 Raw String: En Kotlin, además, tenemos cadenas sin procesar de tres comillas que pueden contener caracteres especiales sin la necesidad de escapar de ellas.   
 .trimIndent(): Detecta una sangría mínima común de todas las líneas de entrada, la elimina de cada línea y también elimina la primera y la última si están en blanco.   
 .trimMargin(): Recorta los caracteres de espacio en blanco iniciales seguidos de un marginPrefix de cada línea de una cadena de origen y elimina la primera y la última línea si están en blanco.   
 
 Puedes usar los siguientes para escapar caracteres especiales: \t, \b, \n, \r, \', \", \\ y \$   
+
+## Conversiones
+Funciones dedicadas a las conversiones de tipos de datos
+- toByte()   
+- toShort()   
+- toInt()   
+- toLong()   
+- toFloat()   
+- toDouble()   
+- toChar()  
+Ejemplo `var a:Int = 5` `var b:Long = a.toLong() `
